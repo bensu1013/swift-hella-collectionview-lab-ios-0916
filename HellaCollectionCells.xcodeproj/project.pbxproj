@@ -12,6 +12,8 @@
 		1BCF18801DA6D7220045E980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF187E1DA6D7220045E980 /* Main.storyboard */; };
 		1BCF18821DA6D7220045E980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF18811DA6D7220045E980 /* Assets.xcassets */; };
 		1BCF18851DA6D7220045E980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF18831DA6D7220045E980 /* LaunchScreen.storyboard */; };
+		B556EB631DA876390054F777 /* HellaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556EB621DA876390054F777 /* HellaDetailViewController.swift */; };
+		B556EB651DA876EA0054F777 /* HellaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556EB641DA876EA0054F777 /* HellaCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1BCF18811DA6D7220045E980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCF18841DA6D7220045E980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BCF18861DA6D7220045E980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B556EB621DA876390054F777 /* HellaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HellaDetailViewController.swift; sourceTree = "<group>"; };
+		B556EB641DA876EA0054F777 /* HellaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HellaCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				1BCF187A1DA6D7220045E980 /* AppDelegate.swift */,
 				1BCF187C1DA6D7220045E980 /* HellaViewController.swift */,
 				1BCF187E1DA6D7220045E980 /* Main.storyboard */,
+				B556EB641DA876EA0054F777 /* HellaCollectionViewCell.swift */,
+				B556EB621DA876390054F777 /* HellaDetailViewController.swift */,
 				1BCF18811DA6D7220045E980 /* Assets.xcassets */,
 				1BCF18831DA6D7220045E980 /* LaunchScreen.storyboard */,
 				1BCF18861DA6D7220045E980 /* Info.plist */,
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BCF187D1DA6D7220045E980 /* HellaViewController.swift in Sources */,
+				B556EB651DA876EA0054F777 /* HellaCollectionViewCell.swift in Sources */,
 				1BCF187B1DA6D7220045E980 /* AppDelegate.swift in Sources */,
+				B556EB631DA876390054F777 /* HellaDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
